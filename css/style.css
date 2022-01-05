@@ -1,0 +1,395 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+/* common css end */
+/* header part start */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .header-bg{
+    background:url(../images/shapes/Group\ 88.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 565px;
+    padding-right: 113px;
+    padding-bottom: 120px;
+
+} */
+
+.head-text h1{
+   /* position: absolute;  */
+   width: 600px;
+   height: 234px;
+   padding-left: 100px;
+   padding-top: 260px;
+   padding-bottom: 40px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 60px;
+   /* line-height: 160%; */
+   /* letter-spacing: -o.02em; */
+
+}
+
+h1  span{
+    color: orange;
+}
+.head-text p{
+    width: 500px;
+    height:64px;
+    padding-top: 34px;
+    padding-left: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: rgb(137, 136, 136);
+
+}
+
+
+.half-dislpay{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 660px;
+    height: 746px;
+    padding-top: 80px;
+
+    margin-bottom: 100px;
+
+}
+.head-text a{
+    font-weight: 700;
+    color:#fff ;
+    background-image:linear-gradient( orange,tomato);
+  
+    padding: 20px 40px;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* banner part start */
+.banner-bg{
+    background:url(../images/shapes/7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.banner-img{
+    width: 50%;
+    height: 600px;
+}
+.banner-img img{
+    width: 338px;
+    height:536px;
+    padding-top: 64px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.bannner-content{
+    width: 50%;
+    height: 600px;
+    
+
+
+}
+.bannner-content h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-top: 127px;
+    padding-bottom: 32px;
+    padding-left: 48px;
+}
+.bannner-content p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-left: 48px;
+    padding-right: 213px;
+    padding-bottom: 90px;
+
+
+}
+.bannner-content a{
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    text-align: left;
+    padding: 24px 32px;
+    margin-left: 48px;
+    margin-bottom: 70px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+
+
+}
+
+
+/* banner part  end*/
+
+/* recipi part  end*/
+.recipie{
+    text-align: center;
+    
+}
+.recipie h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 72px;
+    padding-bottom: 30px;
+
+
+}
+.recipie p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-left: 367px;
+    margin-right: 367px; */
+    padding-left: 367px;
+    padding-right: 367px;
+    padding-bottom: 38px;
+
+
+
+}
+
+
+
+/* recipi part  end*/
+
+/* recipi-item part  start*/
+
+
+.recipie-item{
+    width: 1240px;
+    height: 528px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    margin-bottom: 130px;
+    
+    
+}
+/* recipie-item-1 */
+.recipie-item-1{
+    width: 377px;
+    height: 528px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+
+
+    
+  
+}
+.recipie-item-1 img{
+    border-radius: 20px;
+    
+
+    
+}
+.recipie-item-1 h3{
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.recipie-item-1 p{
+    font-size: 18px;
+
+}
+
+/* title2 */
+.recipie-item-2{
+    width: 377px;
+    height: 528px;
+    padding: 20px;
+    
+    margin-left: 54px;
+    margin-right: 54px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+
+    
+}
+.recipie-item-2 img{
+    border-radius: 20px;
+    
+}
+.recipie-item-2 h3{
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.recipie-item-2 p{
+    font-size: 18px;
+    
+}
+/* title3 */
+.recipie-item-3{
+    width: 377px;
+    height: 528px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+   
+    
+}
+.recipie-item-3 img{
+    border-radius: 20px;
+    
+}
+
+.recipie-item-3 h3{
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.recipie-item-3 p{
+    font-size: 18px;
+    
+}
+
+
+
+/* recipi-item part  end */
+
+/*bonas part  start */
+.bonas-part{
+    width: 1240px;
+    height: 226px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 92px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 40px;
+
+    
+    
+}
+.youtube{
+    width: 350px;
+    height: 98px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 165px;
+    padding-right: 165px;
+    
+}
+
+.youtube h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    
+    
+}
+
+.youtube small{
+    font-size: 16px;
+    
+
+}
+
+.Instagram{
+    width: 350px;
+    height: 98px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 165px;
+    margin: 0 auto;
+}
+.Instagram h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    
+}
+.Instagram small{
+    font-size: 16px;
+    
+}
+
+.Dribbble{
+    width: 350px;
+    height: 98px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    /* padding-left: 165px; */
+    padding-right: 165px;
+    margin: 0 auto;
+}
+.Dribbble h2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.Dribbble small{
+    font-size: 16px;
+
+
+}
+/* bonas-item part  end */
+
+/* footer part  start */
+footer{
+    margin: 0 auto;
+    width: 1440px;
+    height: 256px;
+    background: black;
+    color: #fff;
+}
+footer h2{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    
+    
+}
+footer h2 span{
+    color: orange;
+}
+footer p{
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 115px;
+}
+/* footer part  end */
+
+
+
